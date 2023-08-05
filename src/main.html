@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Smart Device Control</title>
+    <style>
+      body { 
+        font-family: Arial, sans-serif; 
+        text-align: center; 
+        background-color: #f0e8dd;
+      }
+      h1 { color: #333333; margin-top: 40px; }
+      p { margin: 10px 0; color: #630c0c; }
+      button { margin-top: 20px; padding: 10px 20px; font-size: 16px; background-color: #ed9c51; color: rgb(246, 211, 211); border: none; border-radius: 4px; cursor: pointer; }
+      button:hover { background-color: #79cc86; }
+      img { margin-top: 20px; max-width: 200px; }
+      .flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .font-24 {
+        font-size: 24px;
+      }
+
+      .center {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      img.Logo {
+        width: 50%!important;
+        height: auto;
+        max-width: unset!important;
+      }
+      .border {
+        border: 3px solid black;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 24px;
+        padding: 16px;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div><img class="Logo" src="	https://seee.hust.edu.vn/theme-viendien-theme/images/VienDienTV.png" alt="Logo"></div>
+    <div class="border"><h1>SMART DEVICE CONTROL</h1>
+      <!-- <p ><span class="font-24"><strong>Trạng thái:</span><strong>OK &nbsp<strong style="color: green;">✅</strong></p>
+      <p ><span class="font-24">Nhiệt độ:</span> <strong>25.5°C</strong></p>
+      <p ><span class="font-24">Độ ẩm:</span> <strong>50%</strong></p> -->
+      <div class="center">
+        <p class="flex">
+          <span class="font-24">Trạng thái:</span>
+          <span><strong>OK</strong> <strong style="color: green;">✅</strong></span>
+        </p>
+        <p class="flex">
+          <span class="font-24">Nhiệt độ:</span>
+          <strong>34.5°C</strong>
+        </p>
+        <p class="flex">
+          <span class="font-24">Độ ẩm:</span>
+          <strong>70%</strong>
+        </p>
+      </div>
+      <div>
+        <button><a href="/?led=1"><strong>Bật Đèn</a></button>
+        <button><a href="/?led=0"><strong>Tắt Đèn</a></button>
+      </div>
+      <img src="https://cdn-icons-png.flaticon.com/512/954/954861.png" alt="Hình minh họa"></div>
+  </body>
+</html>
