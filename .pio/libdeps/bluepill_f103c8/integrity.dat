@@ -1,0 +1,4 @@
+adafruit/DHT sensor library@^1.4.4
+adafruit/Adafruit Unified Sensor@^1.1.9
+khoih-prog/Ethernet_Generic@^2.8.1
+arduino-libraries/Ethernet@^2.0.2
