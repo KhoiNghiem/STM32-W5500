@@ -22,7 +22,7 @@ STM32 Blue Pill connected to Wiznet W5500 to connect, send data, and control sig
 | PC13 | LED |
 | PB9  | DATA (DHT22) |
 
-
+![](https://github.com/KhoiNghiem/STM32-W5500/blob/main/Images/Sche.png)
 
 ## Working & Code Explanation
 Use ST-Link V2 to upload the code to STM32
